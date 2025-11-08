@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small global tweak to ensure the page has a neutral background for the component */
+html, body, #root {
+  height: 100%;
+}
+body {
+  background: white;
+}
